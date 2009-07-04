@@ -1,0 +1,89 @@
+rekonq
+------------------------------------------
+A simple KDE browser based on QtWebKit.
+
+Runtime requirements:
+  cygwin-1.7.0-50
+  libgcc1-4.3.2-2
+  libkdecore5-4.2.4-1
+  libQtCore4-4.5.1-1
+  libQtGui4-4.5.1-1
+  libQtNetwork4-4.5.1-1
+  libQtWebKit4-4.5.1-1
+  libQtXml4-4.5.1-1
+  libstdc++6-4.3.2-2
+
+Build requirements:
+(besides corresponding -devel packages)
+  automoc4-0.9.88-10
+  binutils-20080624-2
+  cmake-2.6.4-10
+  cygport-0.9.8-1
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  make-3.81-2
+  pkg-config-0.23b-10
+  sed-4.1.5-2
+
+Canonical website:
+  http://rekonq.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/rekonq/
+
+-------------------------------------------
+
+Build instructions:
+  unpack rekonq-0.1.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./rekonq-0.1.0-X.cygport all
+
+This will create:
+  /usr/src/rekonq-0.1.0-X-src.tar.bz2
+  /usr/src/rekonq-0.1.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/rekonq.sh
+  /usr/bin/rekonq.exe
+  /usr/share/applications/kde4/rekonq.desktop
+  /usr/share/doc/rekonq/AUTHORS
+  /usr/share/doc/rekonq/COPYING
+  /usr/share/doc/rekonq/ChangeLog
+  /usr/share/doc/rekonq/TODO
+  /usr/share/icons/hicolor/16x16/apps/rekonq.png
+  /usr/share/icons/hicolor/32x32/apps/rekonq.png
+  /usr/share/icons/hicolor/64x64/apps/rekonq.png
+  /usr/share/kde4/apps/rekonq/defaultbookmarks.xbel
+  /usr/share/kde4/apps/rekonq/htmls/notfound.html
+  /usr/share/kde4/apps/rekonq/pics/loading.gif
+  /usr/share/kde4/apps/rekonq/pics/webkit-icon.png
+  /usr/share/kde4/apps/rekonq/rekonqui.rc
+  /usr/share/kde4/config.kcfg/rekonq.kcfg
+  /usr/share/locale/de/LC_MESSAGES/rekonq.mo
+  /usr/share/locale/en_BG/LC_MESSAGES/rekonq.mo
+  /usr/share/locale/es/LC_MESSAGES/rekonq.mo
+  /usr/share/locale/fr/LC_MESSAGES/rekonq.mo
+  /usr/share/locale/it/LC_MESSAGES/rekonq.mo
+  /usr/share/locale/lt/LC_MESSAGES/rekonq.mo
+  /usr/share/locale/nl/LC_MESSAGES/rekonq.mo
+  /usr/share/locale/pt/LC_MESSAGES/rekonq.mo
+  /usr/share/locale/ru/LC_MESSAGES/rekonq.mo
+  /usr/share/locale/sv/LC_MESSAGES/rekonq.mo
+  /usr/share/locale/tr/LC_MESSAGES/rekonq.mo
+  /usr/share/locale/uk/LC_MESSAGES/rekonq.mo
+
+------------------
+
+Port Notes:
+
+----- version 0.1.0-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
