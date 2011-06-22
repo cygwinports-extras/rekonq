@@ -1,5 +1,5 @@
 inherit kde4
 
 DESCRIPTION="KDE WebKit browser"
-HOMEPAGE="http://rekonq.sourceforge.net/"
+HOMEPAGE="http://rekonq.kde.net/"
 SRC_URI="mirror://sourceforge/rekonq/${P}.tar.bz2"
