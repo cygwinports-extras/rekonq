@@ -1,0 +1,7 @@
+inherit kde4
+
+CATEGORY="KDE Web"
+SUMMARY="KDE WebKit browser"
+DESCRIPTION="A simple KDE browser based on QtWebKit."
+HOMEPAGE="http://rekonq.kde.org/"
+SRC_URI="mirror://sourceforge/rekonq/${P}.tar.bz2"
