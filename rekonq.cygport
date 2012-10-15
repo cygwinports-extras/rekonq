@@ -1,5 +1,8 @@
 inherit kde4
 
+NAME="rekonq"
+VERSION=1.2
+RELEASE=1
 CATEGORY="KDE Web"
 SUMMARY="KDE WebKit browser"
 DESCRIPTION="A simple KDE browser based on QtWebKit."
