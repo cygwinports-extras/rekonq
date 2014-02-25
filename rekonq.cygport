@@ -1,10 +1,10 @@
 inherit kde4
 
 NAME="rekonq"
-VERSION=2.3.2
+VERSION=2.4.2
 RELEASE=1
 CATEGORY="Web"
 SUMMARY="KDE WebKit browser"
 DESCRIPTION="A simple KDE browser based on QtWebKit."
 HOMEPAGE="http://rekonq.kde.org/"
-SRC_URI="mirror://sourceforge/rekonq/rekonq-${VERSION}.tar.bz2"
+SRC_URI="mirror://sourceforge/rekonq/rekonq-${VERSION}.tar.xz"
