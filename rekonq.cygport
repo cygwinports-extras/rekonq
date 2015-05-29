@@ -8,3 +8,5 @@ SUMMARY="KDE WebKit browser"
 DESCRIPTION="A simple KDE browser based on QtWebKit."
 HOMEPAGE="http://rekonq.kde.org/"
 SRC_URI="mirror://sourceforge/rekonq/rekonq-${VERSION}.tar.xz"
+
+REQUIRES="kde-runtime"
